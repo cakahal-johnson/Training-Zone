@@ -1,3 +1,15 @@
+/* general settings */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f0e3e3;
+}
+
 /* navbar section */
 nav a
 {
@@ -107,10 +119,11 @@ background-color: #fff;
 }
 .home_body, .history
 {
-    margin: 10px 10%;
+    margin: 50px 10%;
     display: flex;
     background-color: #ccc;
     font-family: sans-serif;
+
 
 }
 
@@ -131,12 +144,14 @@ font-size: 2em;
 .details
 {
     line-height: 30px;
+    margin: 10px 10%;
+
 }
 
 /* testimony */
 .testimony
 {
-    margin: 20px 15%;
+    margin: 50px 15%;
 }
 
 .testimony img:hover
